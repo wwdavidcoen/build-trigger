@@ -1,0 +1,27 @@
+- task: CmdLine@2
+  inputs:
+    #script: 'echo hello world.' 
+
+- task: CmdLine@2
+  inputs:
+    #script: 'echo $(Build.SourcesDirectory)' 
+
+- task: CmdLine@2
+  inputs:
+    #script: 'echo $(BuildConfiguration)' 
+
+- task: CmdLine@2
+  inputs:
+    #script: 'echo $(Build.ArtifactStagingDirectory)' 
+
+- task: CopyFiles@2
+  enabled: false
+  inputs:
+    sourceFolder: '$(Build.SourcesDirectory)'
+    contents: '**/$(BuildConfiguration)/**/?(*.exe|*.pdb)'
+
+- task: PublishBuildArtifacts@1
+  enabled: false
+  inputs:
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    artifactName: drop
