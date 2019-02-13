@@ -1,1 +1,1 @@
-release uwp
+final steam
