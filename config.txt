@@ -1,1 +1,1 @@
-final uwp
+final steam
