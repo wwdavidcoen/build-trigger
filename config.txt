@@ -1,1 +1,1 @@
-flight steam
+release msixvc
