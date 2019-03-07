@@ -1,1 +1,1 @@
-final uwp
+release msixvc
