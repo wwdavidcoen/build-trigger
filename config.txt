@@ -1,1 +1,1 @@
-debug steam
+release uwp
