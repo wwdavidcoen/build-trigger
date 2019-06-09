@@ -1,1 +1,1 @@
-free steam
+debug msixvc
