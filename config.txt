@@ -1,1 +1,1 @@
-release msixvc
+beta hotfix msixvc
