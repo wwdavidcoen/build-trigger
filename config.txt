@@ -1,1 +1,1 @@
-debug msixvc
+final msixvc
