@@ -1,1 +1,1 @@
-debug steam
+final msixvc
