@@ -1,1 +1,1 @@
-debug msixvc
+beta hotfix msixvc
