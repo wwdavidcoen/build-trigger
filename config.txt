@@ -1,1 +1,1 @@
-ms release
+ms release msixvc
